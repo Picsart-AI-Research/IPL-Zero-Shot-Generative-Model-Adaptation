@@ -1,4 +1,4 @@
-# IPT-Zero-Shot-Generative-Model-Adaptation
+# IPL-Zero-Shot-Generative-Model-Adaptation
 
 This repository will be the official Pytorch implementation for [IPL](https://arxiv.org/abs/2304.).
 
