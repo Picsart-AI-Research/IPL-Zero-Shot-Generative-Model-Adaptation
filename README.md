@@ -12,7 +12,7 @@ Kai Wang,
 [Xingqian Xu](https://scholar.google.com/citations?user=s1X82zMAAAAJ&hl=en&oi=ao),
 [Shiji Song](https://scholar.google.com/citations?user=rw6vWdcAAAAJ&hl=en&oi=ao),
 [Humphrey Shi](https://www.humphreyshi.com),
-[Gao Huang](https://www.gaohuang.com)
+[Gao Huang](https://www.gaohuang.net)
 </br>
 > **Abstract**: 
 > Recently, CLIP-guided image synthesis has shown appealing performance on adapting a pre-trained source-domain generator to an unseen target domain. It does not require any target-domain samples but only the textual domain labels. The training is highly efficient, e.g., a few minutes. However, existing methods still have some limitations in the quality of generated images and may suffer from the mode collapse issue. 
