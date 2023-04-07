@@ -1,8 +1,8 @@
 # IPL-Zero-Shot-Generative-Model-Adaptation
 
-This repository will be the official Pytorch implementation for [IPL](https://arxiv.org/abs/2304.).
+This repository will be the official Pytorch implementation for [IPL](https://arxiv.org/pdf/2304.03119.pdf).
 
-**[Zero-shot Generative Model Adaptation via Image-specific Prompt Learning](https://arxiv.org/abs/2304.) (CVPR 2023)**
+**[Zero-shot Generative Model Adaptation via Image-specific Prompt Learning](https://arxiv.org/pdf/2304.03119.pdf) (CVPR 2023)**
 </br>
 [Jiayi Guo](https://www.jiayiguo.net),
 [Chaofei Wang](https://scholar.google.com/citations?user=-hwGMHcAAAAJ&hl=en&oi=ao),
@@ -39,7 +39,14 @@ In Stage 1, a latent mapper is trained to produce a set of image-specific prompt
 If you find our work helpful, please **star🌟** this repo and **cite📑** our paper. Thanks for your support!
 
 ```
-
+@misc{guo2023zeroshot,
+      title={Zero-shot Generative Model Adaptation via Image-specific Prompt Learning}, 
+      author={Jiayi Guo and Chaofei Wang and You Wu and Eric Zhang and Kai Wang and Xingqian Xu and Shiji Song and Humphrey Shi and Gao Huang},
+      year={2023},
+      eprint={2304.03119},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 ## Contact
