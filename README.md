@@ -2,8 +2,9 @@
 
 This repository is the official Pytorch implementation for [IPL](https://arxiv.org/pdf/2304.03119.pdf).
 
+[![arXiv](https://img.shields.io/badge/paper-CVPR2023-cyan)](https://openaccess.thecvf.com/content/CVPR2023/papers/Guo_Zero-Shot_Generative_Model_Adaptation_via_Image-Specific_Prompt_Learning_CVPR_2023_paper.pdf) [![arXiv](https://img.shields.io/badge/arXiv-2304.03119-red)](https://arxiv.org/abs/2304.03119) [![video](https://img.shields.io/badge/video-green)](https://youtu.be/vw9-C3Sz5nM)
+
 **[Zero-shot Generative Model Adaptation via Image-specific Prompt Learning](https://arxiv.org/pdf/2304.03119.pdf) (CVPR 2023)**
-[![arXiv](https://img.shields.io/badge/paper-CVPR2023-cyan)](https://openaccess.thecvf.com/content/CVPR2023/papers/Guo_Zero-Shot_Generative_Model_Adaptation_via_Image-Specific_Prompt_Learning_CVPR_2023_paper.pdf) [![arXiv](https://img.shields.io/badge/arXiv-2304.03119-red)](https://arxiv.org/abs/2304.03119) [![video](https://img.shields.io/badge/video-green)](https://youtu.be/vw9-C3Sz5nM) 
 </br>
 [Jiayi Guo](https://www.jiayiguo.net)\*,
 [Chaofei Wang](https://scholar.google.com/citations?user=-hwGMHcAAAAJ&hl=en&oi=ao)\*,
@@ -15,6 +16,7 @@ Kai Wang,
 [Humphrey Shi](https://www.humphreyshi.com),
 [Gao Huang](https://www.gaohuang.net)
 </br>
+ 
 > **Abstract**: 
 > Recently, CLIP-guided image synthesis has shown appealing performance on adapting a pre-trained source-domain generator to an unseen target domain. It does not require any target-domain samples but only the textual domain labels. The training is highly efficient, e.g., a few minutes. However, existing methods still have some limitations in the quality of generated images and may suffer from the mode collapse issue. 
 A key reason is that a fixed adaptation direction is applied for all cross-domain image pairs, which leads to identical supervision signals. To address this issue, we propose an **I**mage-specific **P**rompt **L**earning (IPL) method, which learns specific prompt vectors for each source-domain image. This produces a more precise adaptation direction for every cross-domain image pair, endowing the target-domain generator with greatly enhanced flexibility. 
@@ -95,11 +97,13 @@ Corresponding generators are available at [Google Drive](https://drive.google.co
 If you find our work helpful, please **star🌟** this repo and **cite📑** our paper. Thanks for your support!
 
 ```
-@article{guo2023zero,
-  title={Zero-shot Generative Model Adaptation via Image-specific Prompt Learning},
-  author={Guo, Jiayi and Wang, Chaofei and Wu, You and Zhang, Eric and Wang, Kai and Xu, Xingqian and Song, Shiji and Shi, Humphrey and Huang, Gao},
-  journal={arXiv preprint arXiv:2304.03119},
-  year={2023}
+@InProceedings{Guo_2023_CVPR,
+    author    = {Guo, Jiayi and Wang, Chaofei and Wu, You and Zhang, Eric and Wang, Kai and Xu, Xingqian and Song, Shiji and Shi, Humphrey and Huang, Gao},
+    title     = {Zero-Shot Generative Model Adaptation via Image-Specific Prompt Learning},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {11494-11503}
 }
 ```
 
