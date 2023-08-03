@@ -19,11 +19,11 @@ def eval(args):
     sample_dir = os.path.join(args.output_dir, "sample")
     os.makedirs(sample_dir, exist_ok=True)
 
-    generator_ema = SG2Generator(args.adapted_gen_ckpt, img_size=args.size, channel_multiplier=args.channel_multiplier).to(device)
+    generator_ema = SG2Generator(args.adapted_gen_ckpt, img_size=args.size, channel_multiplier=args.channel_multiplier, device=device)
     generator_ema.freeze_layers()
     generator_ema.eval()
 
-    generator_frozen = SG2Generator(args.frozen_gen_ckpt, img_size=args.size, channel_multiplier=args.channel_multiplier).to(device)
+    generator_frozen = SG2Generator(args.frozen_gen_ckpt, img_size=args.size, channel_multiplier=args.channel_multiplier, device=device)
     generator_frozen.freeze_layers()
     generator_frozen.eval()
 
