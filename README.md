@@ -3,6 +3,7 @@
 This repository is the official Pytorch implementation for [IPL](https://arxiv.org/pdf/2304.03119.pdf).
 
 **[Zero-shot Generative Model Adaptation via Image-specific Prompt Learning](https://arxiv.org/pdf/2304.03119.pdf) (CVPR 2023)**
+[![arXiv](https://img.shields.io/badge/paper-CVPR2023-cyan)](https://openaccess.thecvf.com/content/CVPR2023/papers/Guo_Zero-Shot_Generative_Model_Adaptation_via_Image-Specific_Prompt_Learning_CVPR_2023_paper.pdf) [![arXiv](https://img.shields.io/badge/arXiv-2304.03119-red)](https://arxiv.org/abs/2304.03119) [![video](https://img.shields.io/badge/video-green)](https://youtu.be/vw9-C3Sz5nM) 
 </br>
 [Jiayi Guo](https://www.jiayiguo.net)\*,
 [Chaofei Wang](https://scholar.google.com/citations?user=-hwGMHcAAAAJ&hl=en&oi=ao)\*,
